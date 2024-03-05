@@ -1,0 +1,33 @@
+:root {
+  --primary-color: rgba(96, 112, 255, 1);
+}
+
+/* Your CSS styles for mobile devices with a width of 376 pixels or less */
+.body {
+  width: 375px;
+  padding: 20px;
+  margin: 0% !important;
+}
+
+.navigation { 
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-left {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: center;
+  color: var(--primary-color);
+  margin-left: 15px;
+}
+
+.navigation-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 15px;
+}
